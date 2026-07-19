@@ -9,9 +9,6 @@
   "targets": {
     "mindcraft-lang/lib-codal": {
       "packageVersion": "^0.2.0"
-    },
-    "mindcraft-lang/trg-microbit-v2": {
-      "packageVersion": "^0.9.1"
     }
   },
   "app": {
