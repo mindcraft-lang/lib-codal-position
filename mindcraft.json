@@ -1,6 +1,6 @@
 {
   "name": "Position",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "identity": "mindcraft-lang/lib-codal-position",
   "description": "A two-axis position value type for CODAL-based targets.",
   "files": [
