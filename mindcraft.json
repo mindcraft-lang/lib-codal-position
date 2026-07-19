@@ -2,13 +2,27 @@
   "name": "Position",
   "version": "0.1.2",
   "identity": "mindcraft-lang/lib-codal-position",
-  "description": "A two-axis position value type (x, y in -100..100 game convention) for WODAL-based targets.",
+  "description": "A two-axis position value type for CODAL-based targets.",
   "files": [
     "index.ts"
   ],
   "targets": {
-    "mindcraft-lang/codal": {
+    "mindcraft-lang/lib-codal": {
       "packageVersion": "^0.2.0"
+    },
+    "mindcraft-lang/trg-microbit-v2": {
+      "packageVersion": "^0.9.1"
+    }
+  },
+  "app": {
+    "@mindcraft-lang/microbit-sim": {
+      "brainOrder": [],
+      "simulator": {
+        "order": [
+          "52e0bade-e3d5-4c95-ba28-21df5c6ce9c4"
+        ],
+        "flash": {}
+      }
     }
   }
 }
